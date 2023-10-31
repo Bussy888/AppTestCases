@@ -18,6 +18,7 @@ public class UpdateProfileTest {
     public void verifyUpdateProfile() throws InterruptedException {
         musicPlayer.acceptButton.click();
         musicPlayer.userSectionButton.click();
+        Thread.sleep(2500);
         userSection.profileConfigButton.click();
         profileConfig.batteryImageButton.click();
         profileConfig.nameTextBox.setText(name);
@@ -31,5 +32,4 @@ public class UpdateProfileTest {
     public void closeApp(){
         Session.getSession().closeApp();
     }
-
 }
