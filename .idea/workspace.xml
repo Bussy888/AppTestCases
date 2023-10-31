@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390c3232-f2a5-4e4c-8044-5cc1159be413" name="Changes" comment="" />
+    <list default="true" id="390c3232-f2a5-4e4c-8044-5cc1159be413" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/activities/MainMusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/activities/PlayerSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/activities/ProfileConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/activities/SearchSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/activities/UserSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/control/AppiumControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/control/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/control/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/control/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/factoryDevice/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/factoryDevice/FactoryDevices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/factoryDevice/FireFoxOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/factoryDevice/IDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/factoryDevice/Ios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/session/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/testSuite/PlaySongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/estructura/testSuite/UpdateProfileTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +45,88 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XVM7EGQIrE49h2HecUbHVip0NR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/enchu/OneDrive/Escritorio/Programacion/QA/AppTestCases/src/test/java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\AppTestCases\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.UpdateProfileTest">
+    <configuration name="PlaySongTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;estructura.testSuite.PlaySongTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateProfileTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;estructura.testSuite.UpdateProfileTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UpdateProfileTest" />
+        <item itemvalue="Gradle.PlaySongTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,5 +138,23 @@
       <updated>1698709627634</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1698763678516" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1698763680270" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
